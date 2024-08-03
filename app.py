@@ -10,7 +10,7 @@ def create_anime_dict(anime):
     return {
             "animeid": anime.id,
             "title": anime.title,
-            "poster": anime.poster,
+            "poster":  anime.poster,
             "banner": anime.banner,
             "synopsis": anime.synopsis,
             "rating": anime.rating,
